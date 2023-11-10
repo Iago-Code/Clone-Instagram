@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1028px) 
+{ 
+    .container{
+        max-width: 100%;
+        margin: 0;
+    }
+       .footer{
+    max-width: 80%;
+   }
+}
+@media only screen and (max-width: 875px) 
+{ 
+   .pitch{
+    display: none;
+   }
+   .footer{
+    max-width: 80%;
+   }
+   html{
+    height: 100VH;
+    width: 100vw;
+   }
+   body{
+    grid-template-rows: 5fr 1fr;
+   }
+}
