@@ -15,11 +15,11 @@ a {
 }
 
 .container {
-    width: 935px;
-    display: grid;
-    grid-template-columns: 1fr 350px;
-    column-gap: 1.25rem;
-    margin: 7,5rem auto 8.125rem;
+  width: 935px;
+  display: grid;
+  grid-template-columns: 2fr 350px;
+  column-gap: 1.25rem;
+  margin: auto; /* Alteração aqui para centralizar verticalmente */
 }
 
 .pitch {
@@ -28,9 +28,6 @@ a {
   background-image: url(../imagem/instagram-celular.png);
   background-size: contain;
   background-repeat: no-repeat;
-
-    
-    
 }
 
 form {
