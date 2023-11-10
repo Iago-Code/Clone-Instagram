@@ -1,4 +1,4 @@
-@/* Largura de tela até 1028px */
+/* Largura de tela até 1028px */
 @media only screen and (max-width: 1028px) { 
    .container {
        max-width: 100%;
@@ -21,15 +21,23 @@
        margin-top: 5rem;
    }
 
-   html {
+   html, body {
+       height: 100%;
+       margin: 0;
+       padding: 0;
+   }
+
+   .container {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
        height: 100vh;
-       width: 100vw;
    }
 
    .form {
        text-align: center;
        max-width: 350px;
-       margin: auto; /* Adicionei para centralizar horizontalmente o .form */
    }
 }
 
