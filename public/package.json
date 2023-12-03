@@ -1,0 +1,24 @@
+{
+  "name": "clone-instagram",
+  "version": "1.0.0",
+  "main": "formulário.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iago-Code/Clone-Instagram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iago-Code/Clone-Instagram/issues"
+  },
+  "homepage": "https://github.com/Iago-Code/Clone-Instagram#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "description": ""
+}
